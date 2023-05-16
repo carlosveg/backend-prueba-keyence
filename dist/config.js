@@ -1,0 +1,10 @@
+"use strict";
+var _a, _b, _c, _d, _e, _f;
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DB_PORT = exports.DB_NAME = exports.DB_PASSWORD = exports.DB_USER = exports.DB_HOST = exports.PORT = void 0;
+exports.PORT = (_a = process.env.PORT) !== null && _a !== void 0 ? _a : 3000;
+exports.DB_HOST = (_b = process.env.DB_HOST) !== null && _b !== void 0 ? _b : 'localhost';
+exports.DB_USER = (_c = process.env.DB_USER) !== null && _c !== void 0 ? _c : 'root';
+exports.DB_PASSWORD = (_d = process.env.DB_PASSWORD) !== null && _d !== void 0 ? _d : 'Pendejuvi+1';
+exports.DB_NAME = (_e = process.env.DB_NAME) !== null && _e !== void 0 ? _e : 'keyence';
+exports.DB_PORT = (_f = process.env.DB_PORT) !== null && _f !== void 0 ? _f : 3306;
